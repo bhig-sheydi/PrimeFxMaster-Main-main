@@ -1,0 +1,342 @@
+.Ask-questions{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.Ask-Offer-Plans{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+    /* border: 1px solid black; */
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.Ask-Con{
+    border: 4px solid #eee;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.Ask-Con1{
+    /* border: 1px solid black; */
+    width: 70%;
+    height: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.Ask-Con1 h4{
+    font-weight: 600;
+    color: rgba(1, 22, 7, 1);
+}
+
+.Ask-IMG{
+    /* border: 1px solid black; */
+    width: 10%;
+    height: 2rem;
+    display: flex;
+    background-color: white;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+}
+
+.Ask-IMG img{
+    scale: 40%;
+}
+
+.Need-Help{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: rows;
+    align-content: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+    /* border: 1px solid black; */
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.Img-Box{
+    /* border: 1px solid black; */
+    width: 35%;
+    height: 20rem;
+    background-position: center;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: contain;
+    justify-content: center;
+    align-items: center;
+}
+
+.Img-Box img{
+    width: 80%;
+    height: 20rem;
+}
+
+.Text-Box{
+    /* border: 1px solid black; */
+    width: 60%;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Support{
+    /* border: 1px solid black; */
+    background-color: #eee;
+    border-radius: 15px;
+    width: 100%;
+    height: 49%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.Support1{
+    /* border: 1px solid black; */
+    width: 50%;
+    height: auto;
+}
+
+.Support1 h4{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.Support2{
+    /* border: 1px solid black; */
+    width: 47%;
+    border-radius: 10px;
+    height: 4rem;
+    background-color: rgba(0, 168, 89, 1);
+}
+
+.Support2 p{
+    font-size: 20px;
+}
+
+.Support2:hover{
+    background-color:  rgba(1, 22, 7, 1);
+}
+
+.Send-Us-A-Message{
+    /* border: 1px solid black; */
+    background-color: white;
+    width: 100%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+}
+
+.Us-Form{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.Us-Form p{
+    margin-bottom: 1.5rem;
+    font-size: 25px;
+}
+
+.Send-Form-Group{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Send-Form-Group input{
+    width: 62%;
+    height: 3.5rem;
+    border: 4px solid #eee;
+    border-radius: 10px;
+}
+
+.Send-Form-Group button{
+    width: 35%;
+    height: 3.5rem;
+    border-radius: 10px;
+    background-color: rgba(0, 168, 89, 1);
+}
+
+.Send-Btn{
+    font-size: 20px;
+}
+
+.Send-Btn:hover{
+    background-color: rgba(1, 22, 7, 1);
+}
+
+
+
+
+/* FOOTER ///////////////////////////////////////////////////////////////////////////////////////// */
+.FAQFooter{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    margin-top: 4rem;
+}
+
+.FAQFooter-Container{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+.FAQSection-One{
+    border-bottom: 3px solid #00A859;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+
+.FAQA{
+    /* border: 1px solid black; */
+    width: 35%;
+    height: 100%;
+    padding-right: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left  ;
+}
+
+.FAQF-Logo{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 35%;
+    background-position: left;
+    background-repeat: none;
+    background-size: contain;
+}
+
+.FAQF-Logo img{
+    width: 80%;
+    height: 90%;
+}
+
+.FAQF-Text{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 40%;
+
+}
+
+.FAQF-Text h4{
+    color: #011607;
+    font-weight: 400;
+}
+
+.FAQFooter-Button{
+    border-radius: 10px;
+    background-color: #00A859;
+    height: 3rem;
+    width: 80%;
+    border: none;
+}
+
+.FAQFooter-Button a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.FAQB{
+    /* border: 1px solid black; */
+    width: 15%;
+    height: 100%;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left  ;
+}
+
+.FAQB h3{
+    color: #011607;
+    font-weight: 500;
+}
+
+.FAQB a{
+    text-decoration: none;
+    color: #011607;
+    font-weight: 400;
+}
+
+.FAQB a:hover{
+    color: #00A859;
+}
+
+.FAQSection-Two{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.FAQCopy-right{
+    border: 1px solid black;
+    width: 50%;
+    height: auto;
+}
+
+.FAQCopy-right h5{
+    color: #011607;
+    font-weight: 400;
+}
+
+.FAQSocials{
+    border: 1px solid black;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    background-position: center;
+    background-repeat: none;
+    background-size: contain;
+}
